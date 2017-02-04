@@ -1,0 +1,9 @@
+.DEFAULT_GOAL := all
+
+%:
+	rm -fr record.app
+	rm -f record.dmg
+	/opt/local/libexec/qt5/bin/qmake
+	$(MAKE) -f Makefile.qmake clean
+	$(MAKE) -f Makefile.qmake $@
+	/opt/Qt5.5.1/5.5/clang_64/bin/macdeployqt record.app/ -dmg

@@ -1,0 +1,24 @@
+* {
+background-color: #fbefcb;
+}
+QLineEdit {
+background-color: #fcda90;
+}
+QPushButton {
+background-color: #fcda90;
+}
+QMenuBar {
+background-color: #fcda90;
+}
+QMenu::item {
+background-color: #fcda90;
+}
+QMenu::item:selected {
+background-color: #654321;
+}
+QHeaderView::section {
+background-color: #fcda90;
+}
+QComboBox {
+background-color: #e0c070;
+}
